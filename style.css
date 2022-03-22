@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #FFFBF0A1;
+
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+.container{
+    /* max-width: 1050px; */
+    max-width: 1050px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.nav-itmes{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    padding: 12px 28px;
+    background-color: #FF6B3D;
+    color: #ffffff;
+    border-radius: 33px;
+    transition: all .5s;
+}
+
+.btn-primary:hover{
+    transform: scale(1.2);
+    background-color: #0E50AA;
+}
+
+
+
+.hero{
+    background: #FFFBF0A1;
+    padding: 120px 0;
+    /* min-height: 90vh;
+    display: flex; */
+}
+
+.split{
+    display: flex;
+}
+
+.split > *{
+    flex-basis: 100%;
+}
+
+.hero h1{
+    /* margin: 1rem 0; */
+    font-size: 64px;
+    font-weight: 700;
+    color: #0E50AA;
+    line-height: 5rem;
+}
+.hero .fun{
+    color: #FF6B3D;
+}
+.hero-img{
+    text-align: right;
+}
+
+.hero .about{
+    margin-bottom: 2rem;
+}
+img{
+    max-width: 100%;
+}
+.course-section{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.course-list{
+    display: flex;
+    gap: 3rem;
+}
+
+.container h2{
+    padding-bottom: 3.2rem;
+    text-align: center;
+    color: #0E50AA;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.container h2 span{
+    color: #FF6B3D;
+}
+.course h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: .5rem 0;
+    margin-bottom: 1.2rem;
+    color: #0E50AA;
+}
+
+.course-info{
+    margin-top: 3rem;
+    
+}
+
+.course-launch{
+    display: flex;
+    justify-content: space-between;
+}
+.course{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 1.2rem;
+    text-align: center;
+}
+.Achivements{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.card{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.Achivements .card img{
+    max-height: 10rem;
+}
+.box{
+    width: 20rem;
+    height: 17rem;
+    background: #FFF0EB;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.box-1{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h4{
+    margin-top: 1.2rem;
+}
+.box p{
+    font-size: 16px;
+}
+
+.Testimonial{
+    min-height: 45vh;
+}
+
+.sakib{
+    height: 8rem;
+    border-radius: 50%;
+}
+.Testimonial .container{
+    text-align: center;
+}
+.myself{
+    width: 603px;
+    margin: auto;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.details{
+    background-color: #0E50AA;
+    color: white;
+}
+
+.details-1{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.details-page{
+    margin-right: 10rem;
+}
+
+.fotter{
+    background-color: #0E50AA;
+    color: white;
+}
+.fotter p{
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+
+@media (max-width:600px)
+{
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 10px 0;
+    }
+    .logo{
+        text-align: center;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .split{
+        flex-direction: column;
+    }
+    .hero{
+        padding: 0rem;
+    }
+    .hero h1{
+        font-size: 55px;
+    }
+    .hero-img{
+        text-align: left;
+        margin-top: 4rem;
+    }
+    .primary{
+        display: none;
+    }
+    .course-list{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .myself{
+        max-width: 380px;
+        margin: 0;
+    }
+    .details-1{
+        flex-direction: column;
+        text-align: center;
+    }
+}
